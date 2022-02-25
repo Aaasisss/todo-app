@@ -1,0 +1,85 @@
+#container {
+    width: 35vw;
+    height: 90vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    overflow-y: auto;
+    color: black;
+    border: 10px solid #01A3A4;
+    border-radius: 10px;
+}
+
+#input, #todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#heading {
+    margin-top: 50px;;
+    margin-bottom: 100px;
+    
+}
+
+#input input {
+    align-items: center;
+    height: 40px;
+    width: 30vw;   
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+
+}
+
+button {
+    height: 45px;
+    width: 25vw;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+button:hover {
+    width: 30vw;
+    height: 50px;
+    box-shadow: 10px black ;
+}
+
+
+
+#addButton {
+    background-color: blue;
+}
+#removeButton {
+    background-color: #f70303;
+}
+
+#todos {
+    margin-top: 50px;;
+    display: flex;
+    flex-direction:column;
+}
+
+.myTodos{
+    height: 40px;
+    width: 30vw;
+    border: 1px solid black;
+    list-style: none;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 20px;;
+}
+
+.checkbox {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+}
